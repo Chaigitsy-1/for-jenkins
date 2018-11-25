@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Sel {
 	 public static void main(String[] args) {
 	        // declaration and instantiation of objects/variables
-	    	System.setProperty("webdriver.chrome.driver","F:\\Selenium\\chromedriver_win32\\chromedriver.exe");
+	    	System.setProperty("webdriver.chrome.driver","lib\\chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			//comment the above 2 lines and uncomment below 2 lines to use Chrome
 			//System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
